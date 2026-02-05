@@ -1,2 +1,2 @@
-# Fractures-of-the-Haze
-An asset management and experimental website.
+# Fractured_Haze
+ A simple asset management website...

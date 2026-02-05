@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  /*outline: 1px solid red;*/
+  background-color: salmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /*Hardcoded [for now]*/
+  width: 100%;
+}
+
+.fake-head{
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 1.5rem;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.3rem 1rem 1.3rem;
+  background-color: transparent;
+}
+
+.github{
+  margin-left: auto;
+}
+
+.hero{
+  /*background-color: purple;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 45%;
+  max-height: 100%;
+  flex-direction: column;
+  
+}
+
+.hero-text{
+  /*background-color: blue;*/
+  font-size: 17rem;
+  margin:0;
+  line-height: 1;
+  padding-top: 10px;
+}
+
+.hero-subtext{
+  max-width: 70%;
+  font-size: 2rem;
+  text-align: center; 
+  
+}
+
+.btnImp{
+  font-size: 1rem;
+  border-radius: 20px;
+  border: black 1px solid;
+  padding: 10px 15px 10px 15px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.filler{
+  font-size: 0.9rem;
+}
+
+.scroll-tag{
+  margin-top: 5rem;
+  font-size: 1rem;
+}
