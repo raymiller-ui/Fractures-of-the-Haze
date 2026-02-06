@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import './global.css'
+import './Styling/variables.css'
 import './App.css'
 
 
@@ -20,6 +20,11 @@ function App() {
         <button className="btnImp" type="text">The Timeline</button>
         <p className="filler">Explore my Identity.</p>
         <p className="scroll-tag">Scroll to Explore</p>
+        <div className='video-bg'>
+          <video muted playsInline autoPlay preload='auto'>
+            <source src="/Public/main.mp4" type="video/mp4"/>
+          </video>
+        </div>
       </section>
     </div>
 
