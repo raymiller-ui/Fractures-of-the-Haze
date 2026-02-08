@@ -1,0 +1,49 @@
+:root {
+
+  /* ========================
+     CORE COLORS
+     ======================== */
+
+  --color-bg-main: #231c24;
+  --color-bg-deep: #161217;
+  --color-bg-elevated: #2a222b;
+
+  --color-text-primary: #e4e4e6;
+  --color-text-muted: #9c98a1;
+  --color-text-faint: #6d6872;
+
+  /* Haze Accent */
+  --color-accent-main: #0a74ad;
+  --color-accent-soft: #0a5c87;
+  --color-accent-glow: rgba(10,116,173,0.35);
+
+  /* Shadow / Atmosphere */
+  --color-shadow-deep: rgba(0,0,0,0.6);
+
+  /* ========================
+     TYPOGRAPHY
+     ======================== */
+
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+
+  --fs-hero: clamp(3.5rem, 8vw, 7rem);
+  --fs-body: 1rem;
+
+  /* ========================
+     SPACING
+     ======================== */
+
+  --space-sm: 0.75rem;
+  --space-md: 1.5rem;
+  --space-lg: 3rem;
+  --space-xl: 6rem;
+
+  /* ========================
+     MOTION
+     ======================== */
+
+  --ease-haze: cubic-bezier(0.16,1,0.3,1);
+  --duration-slow: 900ms;
+
+}
